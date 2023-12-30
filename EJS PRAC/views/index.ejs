@@ -1,0 +1,21 @@
+<!-- index.ejs -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Input Example</title>
+</head>
+<body>
+  <form action="/" method="post">
+    <label for="nameInput">Enter your name:</label>
+    <input type="text" id="nameInput" name="userName" required>
+    <button type="submit">Submit</button>
+  </form>
+
+  <% if (name) { %>
+    <h1>Hello <%= name %></h1>
+  <% } %>
+</body>
+</html>
+
