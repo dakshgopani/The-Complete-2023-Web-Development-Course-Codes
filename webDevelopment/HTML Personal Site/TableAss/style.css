@@ -1,0 +1,8 @@
+body {
+    background-color: aqua;
+    box-sizing: border-box;
+}
+.table1 {
+    margin-left: auto;
+    margin-right: auto;
+}
